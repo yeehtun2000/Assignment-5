@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background: white;
+}
+img{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+h3{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin: 0;
+
+}
+.photo{
+    display: flex;
+    width: 100;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+
+
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px #f1ededec,0 10px 10px  #e7e5e5f3;
+    background: #f2f2f2;
+
+}
+p{
+    text-align: center;
+    color: black;
+    padding-top: 0 8px;
+    line-height: 20px;
+    font-size: 15px;
+}
+button{
+    text-align: center;
+    font-size: 12px;
+    color: #f2f2f2;
+    width: 100px;
+    height:30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.cook{
+    background: rgba(168,129,160, 0.938);
+    position: absolute;
+    top: 12%;
+    right: 63;
+}
+.aa{
+    background: rgba(168,129,160, 0.938);
+    position: absolute;
+    top: 12%;
+    right: 63;
+}
+.bb{
+    background: rgba(168,129,160, 0.938);
+    position: absolute;
+    top: 12%;
+    right: 63;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+i{
+    background: rgba(234,237,238);
+    padding: 2px;
+    text-align: center;
+    color: #0c0c0c;
+    font-size: 10px;
+    border-radius: 50px;
+    margin: 20px;
+    display: inline-block;
+    
+
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.book{
+    border-bottom: 3px solid gray;
+    font-size: 25px;
+
+}
+.card button{
+    border: none;
+    font-size: 15px;
+    color: black;
+}
